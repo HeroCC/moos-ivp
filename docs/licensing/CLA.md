@@ -1,18 +1,14 @@
-# Contributor Agreement
+# MOOS-IvP Contributor Agreement v1
 
 ## Non-Exclusive License Agreement (including the Traditional Patent License OPTION)
 
-Thank you for your interest in contributing to MIT's MOOS-IvP ("We" or "Us").
+Thank you for your interest in contributing to MOOS-IvP ("We" or "Us").
 
-The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions at https://github.com/moos-ivp/moos-ivp/blob/main/COPYING.md.
-
-### How to use this Contributor Agreement
-
-If You are an employee and have created the Contribution as part of your employment, You need to have Your employer approve this Agreement or sign the Entity version of this document. If You do not own the Copyright in the entire work of authorship, any other author of the Contribution should also sign this – in any event, please contact Us at issues@moos-ivp.org
+The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions at https://github.com/moos-ivp/moos-ivp/blob/main/CONTRIBUTING.md.
 
 ### 1\. Definitions
 
-**"You"** means the individual Copyright owner who Submits a Contribution to Us.
+**"You"** means the individual Copyright owner or Legal Entity authorized by the Copyright owner who Submits a Contribution to Us.
 
 **"Legal Entity"** means an entity that is not a natural person.
 
@@ -72,9 +68,9 @@ IF THE DISCLAIMER AND DAMAGE WAIVER MENTIONED IN SECTION 4. AND SECTION 5. CANNO
 
 7.3 In the event of a termination of this Agreement Sections 4, 5, 6, 7 and 8 shall survive such termination and shall remain in full force thereafter. For the avoidance of doubt, Free and Open Source Software (sub)licenses that have already been granted for Contributions at the date of the termination shall remain in full force after the termination of this Agreement.
 
-### 8 Miscellaneous
+### 8. Miscellaneous
 
-8.1 This Agreement and all disputes, claims, actions, suits or other proceedings arising out of this agreement or relating in any way to it shall be governed by the laws of Massachusetts excluding its private international law provisions.
+8.1 This Agreement and all disputes, claims, actions, suits or other proceedings arising out of this agreement or relating in any way to it shall be governed by the laws of the United States excluding its private international law provisions.
 
 8.2 This Agreement sets out the entire agreement between You and Us for Your Contributions to Us and overrides all other agreements or understandings.
 
@@ -83,3 +79,5 @@ IF THE DISCLAIMER AND DAMAGE WAIVER MENTIONED IN SECTION 4. AND SECTION 5. CANNO
 8.4 If any provision of this Agreement is found void and unenforceable, such provision will be replaced to the extent possible with a provision that comes closest to the meaning of the original provision and that is enforceable. The terms and conditions set forth in this Agreement shall apply notwithstanding any failure of essential purpose of this Agreement or any limited remedy to the maximum extent possible under law.
 
 8.5 You agree to notify Us of any facts or circumstances of which you become aware that would make this Agreement inaccurate in any respect.
+
+8.6 You represent that you are legally entitled to grant the above license. If your employer(s) has rights to intellectual property that you create that includes your Contributions, you represent that you have received permission to make Contributions on behalf of that employer, that your employer has waived such rights for your Contributions, or that your employer has executed a separate Corporate CLA.
