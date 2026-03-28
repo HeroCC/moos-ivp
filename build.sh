@@ -19,6 +19,8 @@ for ARGI; do
 	echo "    Override min-robot default on Raspbian    "
 	echo "  --clean, -c, clean                          "
 	echo "    Removes all build, bin, library files     "
+	echo "  --system-proj, -sp                          "
+	echo "    Use system-installed Proj instead of bundled"
 	exit 0
     elif [ "${ARGI}" = "--clean" -o "${ARGI}" = "-c" ]; then
         CLEAN="yes"
@@ -28,6 +30,8 @@ for ARGI; do
         BUILD_BOT_CODE_ONLY="ON"
     elif [ "${ARGI}" = "--minrobotx" -o "${ARGI}" = "-mx" ]; then
         FORCE_FULL_RASPI_BUILD="yes"
+    elif [ "${ARGI}" = "--system-proj" -o "${ARGI}" = "-sp" ]; then
+        SYS_PROJ_ARG="--system-proj"
     fi
 done
 
@@ -64,13 +68,13 @@ elif [ ${BUILD_BOT_CODE_ONLY} = "ON" ] ; then
     echo "===========================================================" 
     echo "BUILDING MOOS and IvP code in min-robot mode (no GUI Apps) " 
     echo "===========================================================" 
-    ./build-moos.sh -m && ./build-ivp.sh -m
+    ./build-moos.sh -m ${SYS_PROJ_ARG} && ./build-ivp.sh -m ${SYS_PROJ_ARG}
     RESULT=$?
 else 
     echo "=========================================" 
     echo "BUILDING All MOOS and IvP code           " 
     echo "=========================================" 
-    ./build-moos.sh -mx && ./build-ivp.sh -mx 
+    ./build-moos.sh -mx ${SYS_PROJ_ARG} && ./build-ivp.sh -mx ${SYS_PROJ_ARG}
     RESULT=$?
 fi
 
